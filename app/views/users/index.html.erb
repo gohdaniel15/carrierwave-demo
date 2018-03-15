@@ -1,0 +1,18 @@
+<h1>All Users</h1>
+
+<table>
+  <thead>
+    <th>No.</th>
+    <th>Name</th>
+    <th>Picture</th>
+  </thead>
+
+  <tbody>
+    <% @users.each.with_index(1) do |user, index| %>
+      <tr>
+        <td><%= index %></td>
+        <td><%= user.email %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>

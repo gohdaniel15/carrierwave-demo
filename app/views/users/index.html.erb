@@ -12,6 +12,7 @@
       <tr>
         <td><%= index %></td>
         <td><%= user.email %></td>
+        <td><%= image_tag user.avatar.thumb.url, size: '50x50' %></td>
       </tr>
     <% end %>
   </tbody>

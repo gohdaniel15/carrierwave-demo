@@ -1,24 +1,26 @@
-# README
+# Carrierwave Demo
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This application is for the purposes of Alphacamp students practicing using
+carrierwave with Ruby on Rails.
 
-Things you may want to cover:
+# Setup
 
-* Ruby version
+1. Clone the repository
+```
+git clone https://github.com/gohdaniel15/carrierwave-demo.git
+cd carrierwave-demo
+```
 
-* System dependencies
+2. Bundle
+```
+bundle
+```
 
-* Configuration
+3. Setup the database
+```
+rake db:create db:migrate db:seed
+```
 
-* Database creation
+# Guides
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+You can follow this [guide](https://gist.github.com/gohdaniel15/e9d1eda73dba3ba44a21669574898925) on the master branch
